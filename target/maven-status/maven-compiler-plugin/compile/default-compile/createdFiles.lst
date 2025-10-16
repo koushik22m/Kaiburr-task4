@@ -1,0 +1,6 @@
+com\example\kaiburr\service\TaskService.class
+com\example\kaiburr\repository\TaskRepository.class
+com\example\kaiburr\model\Task.class
+com\example\kaiburr\controller\TestController.class
+com\example\kaiburr\controller\TaskController.class
+com\example\kaiburr\KaiburrApplication.class

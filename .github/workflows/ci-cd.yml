@@ -1,4 +1,5 @@
-# Triggering workflow after adding Docker secrets
+# Trigger workflow after adding Docker Hub secrets
+
 
 name: CI/CD Pipeline for Maven Project
 

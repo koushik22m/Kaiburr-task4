@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Checkout the repo
+      # 1. Checkout code
       - name: Checkout code
         uses: actions/checkout@v4
 
@@ -21,7 +21,7 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      # 3. Build with Maven
+      # 3. Build Maven project
       - name: Build with Maven
         run: mvn clean package -DskipTests
 
